@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import "./icon.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* btn */
+  .btn-dark {
+    @apply bg-organick-1 flex items-center text-white gap-4 py-5 px-6 rounded-2xl max-w-fit hover:bg-cyan-950 font-bold;
+  }
+  .btn-yellow {
+    @apply bg-organick-3 flex items-center text-organick-1 gap-4 py-5 px-6 font-bold max-w-fit rounded-2xl hover:bg-amber-200;
+  }
+  .btn-white {
+    @apply border-2 border-organick-1 flex items-center text-organick-1 gap-4 py-4 px-3 rounded-xl hover:bg-cyan-950 hover:text-white font-bold;
+  }
+  .btn-icon-wrapper {
+    @apply rounded-full bg-cyan-800 h-5 w-5 flex items-center justify-center;
+  }
+
+  /* Header */
+  .header {
+    @apply py-7 w-full bg-white flex items-center sticky top-0 z-20 border-b;
+  }
+
+  /* Navbar */
+  .navbar {
+    @apply flex flex-col gap-5 lg:gap-0 lg:flex-row lg:items-center justify-between relative px-0 lg:px-3;
+  }
+  .navbar.responsive .navbar-end {
+    @apply flex flex-col;
+  }
+  .navbar.responsive .navbar-menu {
+    @apply flex flex-col;
+  }
+  .company-logo {
+    @apply flex items-center gap-2 text-3xl xl:text-4xl font-bold text-organick-1 w-full lg:w-fit justify-center;
+  }
+  .navbar-menu {
+    @apply hidden lg:flex lg:items-center justify-center gap-3 lg:gap-0;
+  }
+  .navbar-menu-item {
+    @apply font-bold bg-neutral-100 lg:bg-transparent text-organick-1 hover:bg-gray-100 hover:text-organick-1 px-5 lg:px-2 xl:px-4 py-3 lg:py-3 rounded-lg;
+  }
+  .navbar-end {
+    @apply hidden lg:flex flex-row gap-2;
+  }
+  .navbar-end-search {
+    @apply flex relative items-center flex-shrink-0 w-full lg:max-w-fit;
+  }
+  .navbar-end-basket {
+    @apply border rounded-full flex flex-shrink-0 items-center gap-2 p-1 pr-2 max-w-fit;
+  }
+  .menu-btn {
+    @apply absolute left-1 top-5;
+  }
+
+  /* Main Slider */
+  .main-slider-item-content {
+    @apply absolute bg-white bg-opacity-70 rounded-2xl left-2/4 -translate-x-2/4 lg:bg-transparent  md:left-[15%] md:translate-x-0 top-2/4 flex flex-shrink-0 gap-3 flex-col -translate-y-2/4 w-full max-w-md p-5;
+  }
+
+  /* Two Feature Card Section */
+  .feature-card {
+    @apply rounded-xl overflow-hidden h-96 relative mt-10 lg:m-0;
+  }
+  .feature-card-body {
+    @apply absolute top-2/4 -translate-y-1/2 left-10 flex flex-col gap-2 text-4xl font-bold;
+  }
+
+  /* Products Section */
+  .product-card {
+    @apply bg-neutral-100 relative p-5 flex flex-col flex-shrink-0 justify-between rounded-[40px];
+  }
+  .product-card-category {
+    @apply absolute left-5 top-5 rounded-lg bg-organick-1 text-white py-1 px-2;
+  }
+  .product-card-content-top {
+    @apply border-b-2 text-organick-1 font-medium text-2xl pb-2;
+  }
+  .product-card-content-bottom {
+    @apply flex justify-between items-center pt-2;
+  }
+
+  /* Customer Comments - Testimonial */
+  .testimonial-comments-header-tag {
+    @apply text-organick-2 font-medium font-yellowtail text-3xl text-center;
+  }
+  .testimonial-comments-header-title {
+    @apply text-organick-1 font-semibold text-4xl text-center mt-5;
+  }
+
+  .customer-comment {
+    @apply flex flex-col justify-center items-center gap-7;
+  }
+  .customer-comment-img {
+    @apply w-32 h-32 object-cover rounded-full bg-gray-200;
+  }
+  .customer-comment-content {
+    @apply text-organick-p text-xl text-center;
+  }
+  .customer-comment-info {
+    @apply flex flex-col items-center justify-center text-organick-p text-xl text-center;
+  }
+
+  .testimonial-stat {
+    @apply h-56 w-56 border-4 border-organick-2 rounded-full p-1;
+  }
+  .testimonial-stat-content {
+    @apply rounded-full bg-[#f1f1f1] w-full h-full grid place-items-center;
+  }
+
+  /*  Gallery Section  */
+
+  .gallery-card {
+    @apply aspect-square w-full grid place-items-center relative;
+  }
+  .gallery-card-overlay {
+    @apply bg-organick-1 w-full h-full absolute left-0 top-0 z-10 opacity-10 hover:opacity-40 transition-all;
+  }
+  .gallery-card-img {
+    @apply w-full object-cover aspect-square;
+  }
+  .gallery-card-img-wrapper {
+    @apply w-full absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-2/4;
+  }
+  .gallery-card-content {
+    @apply z-10 bg-white rounded-3xl px-20 py-8 text-2xl text-organick-1 font-medium;
+  }
+
+  /*  News Section */
+
+  .blog-card {
+    @apply relative h-[580px];
+  }
+  .blog-card-date {
+    @apply bg-white rounded-full absolute w-20 h-20 left-10 top-10 grid place-items-center;
+  }
+  .blog-card-date-content {
+    @apply text-organick-1 text-xl text-center font-semibold flex flex-col flex-shrink-0;
+  }
+  .blog-card-img-wrapper {
+    @apply rounded-3xl overflow-hidden;
+  }
+  .blog-card-img {
+    @apply h-[500px] w-full object-cover;
+  }
+  .blog-card-content {
+    @apply w-11/12 gap-4 bg-white rounded-[30px] p-5 md:p-12 flex flex-col absolute left-2/4 -translate-x-2/4 bottom-6 z-10 shadow-lg;
+  }
+  .blog-card-content-user {
+    @apply flex items-center gap-2;
+  }
+
+  /* Footer */
+  .footer-start {
+    @apply flex flex-col gap-8 text-center lg:text-end flex-shrink-0  text-organick-p px-12;
+  }
+  .footer-title {
+    @apply text-organick-1 text-2xl font-semibold;
+  }
+  .footer-start-item {
+    @apply flex flex-col;
+  }
+
+  .footer-center {
+    @apply text-center flex flex-col items-center px-10 border-x-2;
+  }
+  .footer-center-social {
+    @apply flex items-center justify-center gap-4 mt-12;
+  }
+  .footer-center-social-icon-wrapper {
+    @apply rounded-full w-[60px] h-[60px] bg-[#EFF6F1] grid place-items-center;
+  }
+
+  .footer-end {
+    @apply flex flex-col text-center lg:text-start gap-6 flex-shrink-0  text-organick-p px-12;
+  }
+
+  .footer-bottom {
+    @apply flex text-center justify-center items-center h-16 border-t-2 text-organick-p;
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+  }
+}

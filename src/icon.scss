@@ -1,0 +1,63 @@
+.icon{
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.icon-search{
+        background-image: url("../img/icon/search.svg");
+        width: 18px;
+        height: 18px;
+    }
+    &.icon-basket{
+        background-image: url("../img/icon/basket.svg");
+        width: 20px;
+        height: 20px;
+    }
+    &.icon-btn-arrow{
+        background-image: url("../img/icon/arrow.svg");
+        width: 12px;
+        height: 12px;
+    }
+
+    &.icon-star{
+        background-image: url("../img/icon/star.svg");
+        width: 18px;
+        height: 18px;
+        &.active{
+            background-image: url("../img/icon/star-active.svg");
+
+        }
+    }
+    &.icon-instagram{
+        background-image: url("../img/icon/insta.svg");
+        width: 20px;
+        height: 20px;
+    }
+
+    &.icon-facebook{
+        background-image: url("../img/icon/facebook.svg");
+        width: 20px;
+        height: 20px;
+    }
+    &.icon-twitter{
+        background-image: url("../img/icon/twitter.svg");
+        width: 20px;
+        height: 20px;
+    }
+    &.icon-pinterest{
+        background-image: url("../img/icon/pinterest.svg");
+        width: 20px;
+        height: 20px;
+    }
+    &.icon-menu{
+        background-image: url("../img/icon/menu.svg");
+        width: 25px;
+        height: 20px;
+    }
+    
+       
+   
+
+}
+

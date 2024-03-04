@@ -1,0 +1,54 @@
+.icon {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon.icon-search {
+  background-image: url("../img/icon/search.svg");
+  width: 18px;
+  height: 18px;
+}
+.icon.icon-basket {
+  background-image: url("../img/icon/basket.svg");
+  width: 20px;
+  height: 20px;
+}
+.icon.icon-btn-arrow {
+  background-image: url("../img/icon/arrow.svg");
+  width: 12px;
+  height: 12px;
+}
+.icon.icon-star {
+  background-image: url("../img/icon/star.svg");
+  width: 18px;
+  height: 18px;
+}
+.icon.icon-star.active {
+  background-image: url("../img/icon/star-active.svg");
+}
+.icon.icon-instagram {
+  background-image: url("../img/icon/insta.svg");
+  width: 20px;
+  height: 20px;
+}
+.icon.icon-facebook {
+  background-image: url("../img/icon/facebook.svg");
+  width: 20px;
+  height: 20px;
+}
+.icon.icon-twitter {
+  background-image: url("../img/icon/twitter.svg");
+  width: 20px;
+  height: 20px;
+}
+.icon.icon-pinterest {
+  background-image: url("../img/icon/pinterest.svg");
+  width: 20px;
+  height: 20px;
+}
+.icon.icon-menu {
+  background-image: url("../img/icon/menu.svg");
+  width: 25px;
+  height: 20px;
+}
