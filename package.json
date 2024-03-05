@@ -4,5 +4,9 @@
   },
   "scripts": {
     "watch": "tailwindcss -i ./src/input.css -o ./dist/assets/css/style.min.css --minify --watch"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11"
   }
 }

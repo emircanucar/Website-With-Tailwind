@@ -1,1028 +1,1215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="assets/css/style.min.css?v=1.0.1" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link href="assets/css/style.min.css?v=1.0.1" rel="stylesheet" />
-</head>
-
-<body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container px-2  sm:px-5">
-      <nav class="navbar" id="main-navbar">
-        <span class="company-logo">
-          <img src="assets/img/logo.svg" alt="Organick" />
-          <span>Organick</span>
-        </span>
-        <div class="navbar-menu">
-          <a href="#?" class="navbar-menu-item">Home</a>
-          <a href="#?" class="navbar-menu-item">About</a>
-          <a href="#?" class="navbar-menu-item">Pages</a>
-          <a href="#?" class="navbar-menu-item">Shop</a>
-          <a href="#?" class="navbar-menu-item">Projects</a>
-          <a href="#?" class="navbar-menu-item">News</a>
-        </div>
-        <div class="navbar-end">
-          <div class="navbar-end-search">
-            <input type="search" name="" id="" class="bg-neutral-50 h-12 w-full lg:w-72 rounded-full" />
-            <div
-              class="icon-search-wrapper absolute right-1 top-1 bg-organick-2 w-10 h-10 rounded-full flex items-center justify-center">
-              <i class="icon icon-search"></i>
-            </div>
-          </div>
-          <div class="navbar-end-basket">
-            <div
-              class="icon-basket-wrapper right-1 top-1 bg-organick-1 w-10 h-10 rounded-full flex flex-shrink-0 items-center justify-center">
-              <i class="icon icon-basket"></i>
-            </div>
-            <span class="font-semibold text-organick-1">
-              Cart (0)
-            </span>
-          </div>
-
-        </div>
-        <button class="menu-btn inline lg:hidden" id="main-menu-btn">
-          <i class="icon icon-menu"></i>
-        </button>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <!-- Main Slider -->
-    <section>
-      <div class="main-slider-wrapper w-full h-[600px] xl:h-full">
-        <div class="swiper main-slider h-full">
-          <div class="swiper-wrapper h-full">
-
-
-            <div class="swiper-slide h-full" lazy="true">
-              <div class="main-slider-item relative h-full">
-                <div class="main-slider-item-img grid place-items-center bg-zinc-300 h-full">
-                  <img src="assets/img/lazy-logo.png" srcset="assets/img/main-slider/bg-one.jpg" loading="lazy"
-                    class="h-full w-full object-cover" alt="" />
-                  <div class="swiper-lazy-preloader"></div>
-
-                </div>
-                <div class="main-slider-item-content">
-                  <span class="font-yellowtail text-organick-2 font-medium text-2xl md:text-3xl">100% Natural
-                    Food</span>
-                  <span class="text-organick-1 text-3xl md:text-4xl lg:text-6xl font-bold ">
-                    Choose the best healthier way of life
-                  </span>
-                  <div class="main-slider-item-link">
-                    <button class="btn-yellow">
-                      Explore Now
-                      <span class="btn-icon-wrapper">
-                        <i class="icon icon-btn-arrow"></i>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide h-full" lazy="true">
-              <div class="main-slider-item relative h-full">
-                <div class="main-slider-item-img grid place-items-center bg-zinc-300 h-full">
-                  <img src="assets/img/lazy-logo.png" srcset="assets/img/main-slider/bg-one.jpg" loading="lazy"
-                    class="h-full w-full object-cover" alt="" />
-                  <div class="swiper-lazy-preloader"></div>
-
-                </div>
-                <div class="main-slider-item-content">
-                  <span class="font-yellowtail text-organick-2 font-medium text-2xl md:text-3xl">100% Natural
-                    Food</span>
-                  <span class="text-organick-1 text-3xl md:text-4xl lg:text-6xl font-bold ">
-                    Choose the best healthier way of life
-                  </span>
-                  <div class="main-slider-item-link">
-                    <button class="btn-yellow">
-                      Explore Now
-                      <span class="btn-icon-wrapper">
-                        <i class="icon icon-btn-arrow"></i>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Two Feature Card Section -->
-    <section>
-      <div class="container px-5 lg:px-10 py-5 lg:py-36">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-10">
-          <div class="feature-card ">
-            <img src="assets/img/two-card-section/banana.jpg" class="w-full h-full object-cover" alt="" srcset="" />
-            <div class="feature-card-body text-white">
-              <span class="font-yellowtail font-medium"> Natural!! </span>
-              <span> Get Garden </span>
-              <span> Fresh Fruits </span>
-            </div>
-          </div>
-          <div class="feature-card">
-            <img src="assets/img/two-card-section/apple-bg.jpg" class="w-full h-full object-cover" alt="" srcset="" />
-            <div class="feature-card-body text-organick-1 ">
-              <span class="font-yellowtail font-medium text-organick-2">
-                Offer!!
-              </span>
-              <span> Get 10% off </span>
-              <span> on Vegetables </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Us Section-->
-    <section class="bg-[#F9F8F8]">
-      <div class="container p-5">
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-          <div class="about-section-img">
-            <img src="assets/img/about-us-section/fruits.png" class="w-full" alt="" />
-          </div>
-          <div class="about-section-content flex flex-col gap-6 justify-center items-center lg:items-start ">
-            <span class="font-yellowtail text-organick-2 font-medium text-3xl">About Us
-            </span>
-            <div
-              class="flex flex-col gap-2 font-semibold text-3xl md:text-4xl text-organick-1 text-center lg:text-start">
-              <span>We Believe in Working</span>
-              <span>Accredited Farmers</span>
-            </div>
-            <p class="text-organick-p text-center lg:text-start">
-              Simply dummy text of the printing and typesetting industry.
-              Lorem had ceased to been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley.
-            </p>
-            <div class="about-section-content-feature flex gap-3">
-              <div class="bg-white p-3 rounded-lg relative flex-shrink-0">
-                <span class="absolute h-6 w-6 rounded-full bg-yellow-300 opacity-25 top-5 left-1"></span>
-                <img src="assets/img/about-us-section/case.svg" alt="" srcset="" />
-              </div>
-              <div class="flex flex-col justify-center">
-                <span class="font-bold text-organick-1 text-xl">Organic Foods Only</span>
-                <p class="text-organick-p text-lg">
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum
-                </p>
-              </div>
-            </div>
-            <div class="about-section-content-feature flex gap-3">
-              <div class="bg-white p-3 rounded-lg relative flex-shrink-0">
-                <span class="absolute h-6 w-6 rounded-full bg-yellow-300 opacity-25 top-5 left-1"></span>
-                <img src="assets/img/about-us-section/post-box.svg" alt="" srcset="" />
-              </div>
-              <div class="flex flex-col justify-center">
-                <span class="font-bold text-organick-1 text-xl">Quality Standards</span>
-                <p class="text-organick-p text-lg">
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum
-                </p>
-              </div>
-            </div>
-            <button class="btn-dark">
-              Shop Now
-              <span class="btn-icon-wrapper">
-                <i class="icon icon-btn-arrow"></i>
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Products Section -->
-    <section>
-      <div class="container py-5  lg:py-40 p-10">
-        <div class="text-2xl md:text-3xl text-organick-2 font-medium text-center font-yellowtail">
-          Categories
-        </div>
-        <div class="text-3xl md:text-5xl font-semibold text-organick-1 text-center">
-          Our Products
-        </div>
-        <div class="swiper products-slider mt-8">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/calabrese.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Calabrese Broccoli
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$30.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/banana.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Fresh Banana Fruites
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category ">
-                  Millets
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/white-nuts.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top ">
-                    White Nuts
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/tomato.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Red Tomato
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Health
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/mung-bean.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Mung Bean
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/eggs.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Eggs
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/bread.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Bread
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Nuts
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/brown-hazelnut.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Brown Hazelnut
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="load-more-btn grid place-items-center mt-10 lg:mt-20">
-          <button class="btn-dark">
-            Load More
-            <span class="btn-icon-wrapper ">
-              <i class="icon icon-btn-arrow"></i>
-            </span>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Customer Comments - Testimonial -->
-    <section class=" bg-contain" style="background: url('assets/img/bg/testimonial.jpg')">
-      <div
-        class="testimonial-section max-w-5xl mx-auto flex flex-row bg-white xl:bg-transparent bg-opacity-80 py-24 h-full">
-        <div class="testimonial-comments w-full">
-          <div class="testimonial-comments-header">
-            <div class="testimonial-comments-header-tag ">
-              Testimonial
-            </div>
-            <div class="testimonial-comments-header-title">
-              What Our Customer Saying?
-            </div>
-          </div>
-          <div class="testimonial-comments-content mt-5 pb-16">
-            <div class="swiper comments-slider">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide p-10">
-                  <div class="customer-comment">
-                    <div class="customer-comment-img">
-                      <img src="assets/img/product/calabrese.png" class="w-full" alt="" />
-                    </div>
-                    <div class="customer-comment-raiting">
-                      <div class="flex gap-1">
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                      </div>
-                    </div>
-                    <div class="customer-comment-content ">
-                      Simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum simply dummy text of the printing
-                      and typesetting industry. Lorem Ipsum has been.
-                    </div>
-                    <div class="customer-comment-info">
-                      <span class="text-2xl font-semibold">Sara Taylor</span>
-                      <span>Consumer</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide p-10">
-                  <div class="customer-comment">
-                    <div class="customer-comment-img">
-                      <img src="assets/img/product/calabrese.png" class="w-full" alt="" />
-                    </div>
-                    <div class="customer-comment-raiting">
-                      <div class="flex gap-1">
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                      </div>
-                    </div>
-                    <div class="customer-comment-content ">
-                      Simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum simply dummy text of the printing
-                      and typesetting industry. Lorem Ipsum has been.
-                    </div>
-                    <div class="customer-comment-info">
-                      <span class="text-2xl font-semibold">Sara Taylor</span>
-                      <span>Consumer</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide p-10">
-                  <div class="customer-comment">
-                    <div class="customer-comment-img">
-                      <img src="assets/img/product/calabrese.png" class="w-full" alt="" />
-                    </div>
-                    <div class="customer-comment-raiting">
-                      <div class="flex gap-1">
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                        <div class="icon icon-star active"></div>
-                      </div>
-                    </div>
-                    <div class="customer-comment-content ">
-                      Simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum simply dummy text of the printing
-                      and typesetting industry. Lorem Ipsum has been.
-                    </div>
-                    <div class="customer-comment-info">
-                      <span class="text-2xl font-semibold">Sara Taylor</span>
-                      <span>Consumer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-          <div class="testimonial-stats border-t pt-16">
-            <div class="swiper testimonial-stats-slider">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide flex justify-center">
-                  <div class="testimonial-stat ">
-                    <div class="testimonial-stat-content">
-                      <div class="flex flex-col text-center">
-                        <span class="text-5xl font-semibold text-organick-1">100%</span>
-                        <span class="text-xl font-medium text-organick-1">Organic</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                  <div class="testimonial-stat">
-                    <div class="testimonial-stat-content">
-                      <div class="flex flex-col text-center">
-                        <span class="text-5xl font-semibold text-organick-1">285</span>
-                        <span class="text-xl font-medium text-organick-1">Active Product</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                  <div class="testimonial-stat">
-                    <div class="testimonial-stat-content">
-                      <div class="flex flex-col text-center">
-                        <span class="text-5xl font-semibold text-organick-1">350+</span>
-                        <span class="text-xl font-medium text-organick-1">Organic Orchads</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                  <div class="testimonial-stat">
-                    <div class="testimonial-stat-content">
-                      <div class="flex flex-col text-center">
-                        <span class="text-5xl font-semibold text-organick-1">25+</span>
-                        <span class="text-xl font-medium text-organick-1">Years of Farming</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section Offer Products -->
-    <section class="bg-organick-1">
-      <div class="container offer-product py-10 lg:py-40 px-5">
-        <div class="offer-product-top flex justify-between items-center flex-col lg:flex-row gap-5">
-          <div class="offer-product-top-header text-center lg:text-start">
-            <div class="text-2xl md:text-3xl text-organick-2 font-medium font-yellowtail">
-              Offer
-            </div>
-            <div class="text-2xl md:text-5xl font-semibold text-white">
-              We Offer Organic For You
-            </div>
-          </div>
-          <div class="view-all-btn grid place-items-center">
-            <button class="btn-yellow">
-              View All Product
-              <span class="btn-icon-wrapper">
-                <i class="icon icon-btn-arrow"></i>
-              </span>
-            </button>
-          </div>
-        </div>
-
-        <div class="swiper offer-product-slider mt-8">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/calabrese.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Calabrese Broccoli
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$30.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/banana.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Fresh Banana Fruites
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Millets
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/white-nuts.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    White Nuts
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="product-card">
-                <div class="product-card-category">
-                  Fresh
-                </div>
-                <div class="product-card-image pb-5 pt-7">
-                  <img src="assets/img/product/tomato.png" class="w-full h-72 object-contain" alt="" />
-                </div>
-                <div class="product-card-content">
-                  <div class="product-card-content-top">
-                    Red Tomato
-                  </div>
-                  <div class="product-card-content-bottom">
-                    <span>
-                      <span class="line-through text-gray-400 font-bold">$20.00</span>
-                      <span class="font-bold text-organick-1 text-xl">$14.00</span>
-                    </span>
-                    <div class="flex gap-1">
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                      <div class="icon icon-star active"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section Eco Frendly -->
-    <section>
-      <div class="grid grid-cols-1 2xl:grid-cols-2 relative">
-        <div class="eco-section-start">
-          <div class="eco-section-img ">
-            <img src="assets/img/bg/field.jpg" class="object-cover aspect-square w-full relative" alt="" />
-          </div>
-        </div>
-        <div class="eco-section-end w-full flex justify-center relative">
-          <div
-            class="eco-section-end-content bg-white rounded-[30px] w-full md:w-4/5 p-5 md:p-20 static  z-10 2xl:absolute  2xl:-left-20 2xl:top-2/4 2xl:-translate-y-1/2 2xl:-translate-x-0">
-            <div
-              class="section-header font-yellowtail text-organick-2 font-medium text-2xl md:text-3xl text-center lg:text-start">
-              Eco Friendly
-            </div>
-            <div
-              class="content-header flex flex-col lg:flex-row 2xl:flex-col gap-2 mt-3 text-center lg:text-start font-semibold text-3xl md:text-4xl text-organick-1">
-              <span>
-                Econis is a Friendly
-              </span>
-              <span>
-                Organic Store
-              </span>
-            </div>
-
-            <div class="content-paragrafs flex flex-col gap-8 mt-6">
-              <div class="flex flex-col">
-                <span class="text-organick-1 text-xl font-medium">Start with Our Company First</span>
-                <p class="text-organick-p text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                  accusantium doloremque laudantium. Sed ut perspiciatis.
-                </p>
-              </div>
-              <div class="flex flex-col">
-                <span class="text-organick-1 text-xl font-medium">Learn How to Grow Yourself</span>
-                <p class="text-organick-p text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                  accusantium doloremque laudantium. Sed ut perspiciatis.
-                </p>
-              </div>
-              <div class="flex flex-col">
-                <span class="text-organick-1 text-xl font-medium">Farming Strategies of Today</span>
-                <p class="text-organick-p text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                  accusantium doloremque laudantium. Sed ut perspiciatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="bg-[#F1F8F4] py-10 lg:py-40">
-      <div class="swiper gallery-slider mt-8">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="gallery-card ">
-              <div class="gallery-card-overlay">
-
-              </div>
-              <div class="gallery-card-img-wrapper">
-                <img src="assets/img/main-slider/bg-one.jpg" class="gallery-card-img" alt="" />
-              </div>
-              <div class="gallery-card-content">
-                Organic Juice
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="gallery-card">
-              <div class="gallery-card-overlay">
-
-              </div>
-              <div class="gallery-card-img-wrapper">
-                <img src="assets/img/gallery-card/2.jpg" class="gallery-card-img" alt="" />
-              </div>
-              <div class="gallery-card-content">
-                Organic Food
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="gallery-card">
-              <div class="gallery-card-overlay">
-
-              </div>
-              <div class="gallery-card-img-wrapper">
-                <img src="assets/img/gallery-card/3.jpg" class="gallery-card-img" alt="" />
-              </div>
-              <div class="gallery-card-content">
-                Nuts Cookis
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- News - Blog Section -->
-    <section>
-      <div class="container py-5  lg:py-40 p-5">
-        <div class="news-section-top flex flex-col md:flex-row justify-between items-center">
-          <div class="news-section-title text-center md:text-start">
-            <div class="text-2xl md:text-3xl text-organick-2 font-medium font-yellowtail">
-              News
-            </div>
-            <div class="text-2xl md:text-4xl font-semibold text-organick-1 mt-3 max-w-lg flex flex-col">
-              Discover weekly content about
-              organic food, & more
-            </div>
-          </div>
-          <button class="btn-white mt-5">
-            More News
-            <span class="btn-icon-wrapper">
-              <i class="icon icon-btn-arrow"></i>
-            </span>
-          </button>
-        </div>
-
-        <div class="swiper news-slider mt-8">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="blog-card">
-                <div class="blog-card-date ">
-                  <span class="blog-card-date-content">
-                    <span>25</span>
-                    <span>Nov</span>
-                  </span>
-                </div>
-                <div class="blog-card-img-wrapper">
-                  <img src="assets/img/news-blog/1.jpg" class="blog-card-img" alt="" />
-                </div>
-                <div class="blog-card-content">
-                  <div class="blog-card-content-user">
-                    <i class="icon icon-person"></i>
-                    <span>By Rachi Card</span>
-                  </div>
-                  <div class="flex flex-col gap-1">
-                    <span class="font-semibold text-2xl md:text-3xl text-organick-1">The Benefits of Vitamin D & How to
-                      Get
-                      It</span>
-                    <p class="text-organick-p text-lg md:text-2xl">
-                      Simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum
-                    </p>
-                  </div>
-                  <span>
-                    <button class="btn-yellow">
-                      Read More
-                      <span class="btn-icon-wrapper">
-                        <i class="icon icon-btn-arrow"></i>
-                      </span>
-                    </button>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="blog-card">
-                <div class="blog-card-date ">
-                  <span class="blog-card-date-content">
-                    <span>2</span>
-                    <span>Mar</span>
-                  </span>
-                </div>
-                <div class="blog-card-img-wrapper">
-                  <img src="assets/img/news-blog/2.jpg" class="blog-card-img" alt="" />
-                </div>
-                <div class="blog-card-content">
-                  <div class="blog-card-content-user">
-                    <i class="icon icon-person"></i>
-                    <span>By Rachi Card</span>
-                  </div>
-                  <div class="flex flex-col gap-1">
-                    <span class="font-semibold text-2xl md:text-3xl text-organick-1">Our Favourite Summertime
-                      Tommeto</span>
-                    <p class="text-organick-p text-lg md:text-xl">
-                      Simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum
-                    </p>
-                  </div>
-                  <span>
-                    <button class="btn-yellow">
-                      Read More
-                      <span class="btn-icon-wrapper">
-                        <i class="icon icon-btn-arrow"></i>
-                      </span>
-                    </button>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Newsletter section -->
-    <section>
-      <div class="container rounded-3xl bg-[url('assets/img/bg/newsletter.jpg')] h-80 p-6 lg:p-12 mt-20" style="
-            background: url('assets/img/bg/newsletter.jpg');
-            background-position: center;
-          ">
-        <div class="grid grid-cols-1 md:grid-cols-2 h-full text-center md:text-start">
-          <div class="text-white text-2xl  md:text-4xl font-semibold flex flex-col max-w-lg justify-center">
-            Subscribe to our Newsletter
-          </div>
-          <form class="text-white flex flex-col md:flex-row flex-shrink-0 justify-end items-center gap-2">
-            <div class="flex items-center">
-              <input type="email" name="" id="" class="p-6 rounded-2xl max-w-96" placeholder="Your Email Address" />
-            </div>
-            <button class="bg-[#274C5B] px-16 py-6 rounded-2xl text-white font-bold">
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container py-5 lg:py-28 text-lg">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-        <div class="footer-start ">
-          <div class="footer-title ">
-            Contact Us
-          </div>
-          <div class="footer-start-item ">
-            <span class="font-bold">Email</span>
-            <a href="mailto:needhelp@Organia.com">needhelp@Organia.com</a>
-          </div>
-          <div class="footer-start-item ">
-            <span class="font-bold">Phone</span>
-            <a href="tel:888 888 888 888">+90 5463413 654134</a>
-          </div>
-          <div class="footer-start-item ">
-            <span class="font-bold">Adress</span>
-            <span>88 road, borklyn street</span>
-          </div>
-
-        </div>
-        <div class="footer-center ">
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container px-2 sm:px-5">
+        <nav class="navbar" id="main-navbar">
           <span class="company-logo">
             <img src="assets/img/logo.svg" alt="Organick" />
             <span>Organick</span>
           </span>
-          <p class="text-organick-p mt-8">
-            Simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum simply dummy text of the printing
-          </p>
-          <div class="footer-center-social ">
-            <span class="footer-center-social-icon-wrapper ">
-              <i class="icon icon-instagram"></i>
-            </span>
-            <span class="footer-center-social-icon-wrapper ">
-              <i class="icon icon-facebook"></i>
-            </span>
-            <span class="footer-center-social-icon-wrapper">
-              <i class="icon icon-twitter"></i>
-            </span>
-            <span class="footer-center-social-icon-wrapper">
-              <i class="icon icon-pinterest"></i>
-            </span>
+          <div class="navbar-menu">
+            <a href="#?" class="navbar-menu-item">Home</a>
+            <a href="#?" class="navbar-menu-item">About</a>
+            <a href="#?" class="navbar-menu-item">Pages</a>
+            <a href="#?" class="navbar-menu-item">Shop</a>
+            <a href="#?" class="navbar-menu-item">Projects</a>
+            <a href="#?" class="navbar-menu-item">News</a>
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-end-search">
+              <input
+                type="search"
+                name=""
+                id=""
+                class="h-12 w-full rounded-full bg-neutral-50 lg:w-72"
+              />
+              <div
+                class="icon-search-wrapper absolute right-1 top-1 flex h-10 w-10 items-center justify-center rounded-full bg-organick-2"
+              >
+                <i class="icon icon-search"></i>
+              </div>
+            </div>
+            <div class="navbar-end-basket">
+              <div
+                class="icon-basket-wrapper right-1 top-1 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-organick-1"
+              >
+                <i class="icon icon-basket"></i>
+              </div>
+              <span class="font-semibold text-organick-1"> Cart (0) </span>
+            </div>
+          </div>
+          <button class="menu-btn inline lg:hidden" id="main-menu-btn">
+            <i class="icon icon-menu"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Main Slider -->
+      <section>
+        <div class="main-slider-wrapper h-[600px] w-full xl:h-full">
+          <div class="swiper main-slider h-full">
+            <div class="swiper-wrapper h-full">
+              <div class="swiper-slide h-full" lazy="true">
+                <div class="main-slider-item relative h-full">
+                  <div
+                    class="main-slider-item-img grid h-full place-items-center bg-zinc-300"
+                  >
+                    <img
+                      src="assets/img/lazy-logo.png"
+                      srcset="assets/img/main-slider/bg-one.jpg"
+                      loading="lazy"
+                      class="h-full w-full object-cover"
+                      alt=""
+                    />
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                  <div class="main-slider-item-content">
+                    <span
+                      class="font-yellowtail text-2xl font-medium text-organick-2 md:text-3xl"
+                      >100% Natural Food</span
+                    >
+                    <span
+                      class="text-3xl font-bold text-organick-1 md:text-4xl lg:text-6xl"
+                    >
+                      Choose the best healthier way of life
+                    </span>
+                    <div class="main-slider-item-link">
+                      <button class="btn-yellow">
+                        Explore Now
+                        <span class="btn-icon-wrapper">
+                          <i class="icon icon-btn-arrow"></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide h-full" lazy="true">
+                <div class="main-slider-item relative h-full">
+                  <div
+                    class="main-slider-item-img grid h-full place-items-center bg-zinc-300"
+                  >
+                    <img
+                      src="assets/img/lazy-logo.png"
+                      srcset="assets/img/main-slider/bg-one.jpg"
+                      loading="lazy"
+                      class="h-full w-full object-cover"
+                      alt=""
+                    />
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                  <div class="main-slider-item-content">
+                    <span
+                      class="font-yellowtail text-2xl font-medium text-organick-2 md:text-3xl"
+                      >100% Natural Food</span
+                    >
+                    <span
+                      class="text-3xl font-bold text-organick-1 md:text-4xl lg:text-6xl"
+                    >
+                      Choose the best healthier way of life
+                    </span>
+                    <div class="main-slider-item-link">
+                      <button class="btn-yellow">
+                        Explore Now
+                        <span class="btn-icon-wrapper">
+                          <i class="icon icon-btn-arrow"></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="footer-end">
-          <div class="footer-title">
-            Utility Pages
-          </div>
-          <a href="#?">Style Guide</a>
-          <a href="#?">404 Not Found</a>
-          <a href="#?">Password Protected</a>
-          <a href="#?">Licences</a>
-          <a href="#?">Changelog</a>
+      </section>
 
+      <!-- Two Feature Card Section -->
+      <section>
+        <div class="container px-5 py-5 lg:px-10 lg:py-36">
+          <div class="grid grid-cols-1 gap-0 lg:grid-cols-2 lg:gap-10">
+            <div class="feature-card">
+              <img
+                src="assets/img/two-card-section/banana.jpg"
+                class="h-full w-full object-cover"
+                alt=""
+                srcset=""
+              />
+              <div class="feature-card-body text-white">
+                <span class="font-yellowtail font-medium"> Natural!! </span>
+                <span> Get Garden </span>
+                <span> Fresh Fruits </span>
+              </div>
+            </div>
+            <div class="feature-card">
+              <img
+                src="assets/img/two-card-section/apple-bg.jpg"
+                class="h-full w-full object-cover"
+                alt=""
+                srcset=""
+              />
+              <div class="feature-card-body text-organick-1">
+                <span class="font-yellowtail font-medium text-organick-2">
+                  Offer!!
+                </span>
+                <span> Get 10% off </span>
+                <span> on Vegetables </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section-->
+      <section class="bg-[#F9F8F8]">
+        <div class="container p-5">
+          <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="about-section-img">
+              <img
+                src="assets/img/about-us-section/fruits.png"
+                class="w-full"
+                alt=""
+              />
+            </div>
+            <div
+              class="about-section-content flex flex-col items-center justify-center gap-6 lg:items-start"
+            >
+              <span class="font-yellowtail text-3xl font-medium text-organick-2"
+                >About Us
+              </span>
+              <div
+                class="flex flex-col gap-2 text-center text-3xl font-semibold text-organick-1 md:text-4xl lg:text-start"
+              >
+                <span>We Believe in Working</span>
+                <span>Accredited Farmers</span>
+              </div>
+              <p class="text-center text-organick-p lg:text-start">
+                Simply dummy text of the printing and typesetting industry.
+                Lorem had ceased to been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley.
+              </p>
+              <div class="about-section-content-feature flex gap-3">
+                <div class="relative flex-shrink-0 rounded-lg bg-white p-3">
+                  <span
+                    class="absolute left-1 top-5 h-6 w-6 rounded-full bg-yellow-300 opacity-25"
+                  ></span>
+                  <img
+                    src="assets/img/about-us-section/case.svg"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="flex flex-col justify-center">
+                  <span class="text-xl font-bold text-organick-1"
+                    >Organic Foods Only</span
+                  >
+                  <p class="text-lg text-organick-p">
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+              <div class="about-section-content-feature flex gap-3">
+                <div class="relative flex-shrink-0 rounded-lg bg-white p-3">
+                  <span
+                    class="absolute left-1 top-5 h-6 w-6 rounded-full bg-yellow-300 opacity-25"
+                  ></span>
+                  <img
+                    src="assets/img/about-us-section/post-box.svg"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="flex flex-col justify-center">
+                  <span class="text-xl font-bold text-organick-1"
+                    >Quality Standards</span
+                  >
+                  <p class="text-lg text-organick-p">
+                    Simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+              <button class="btn-dark">
+                Shop Now
+                <span class="btn-icon-wrapper">
+                  <i class="icon icon-btn-arrow"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section>
+        <div class="container p-10 py-5 lg:py-40">
+          <div
+            class="text-center font-yellowtail text-2xl font-medium text-organick-2 md:text-3xl"
+          >
+            Categories
+          </div>
+          <div
+            class="text-center text-3xl font-semibold text-organick-1 md:text-5xl"
+          >
+            Our Products
+          </div>
+          <div class="swiper products-slider mt-8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/calabrese.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">
+                      Calabrese Broccoli
+                    </div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$30.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/banana.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">
+                      Fresh Banana Fruites
+                    </div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Millets</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/white-nuts.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">White Nuts</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/tomato.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">Red Tomato</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Health</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/mung-bean.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">Mung Bean</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/eggs.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">Eggs</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/bread.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">Bread</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Nuts</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/brown-hazelnut.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">Brown Hazelnut</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="load-more-btn mt-10 grid place-items-center lg:mt-20">
+            <button class="btn-dark">
+              Load More
+              <span class="btn-icon-wrapper">
+                <i class="icon icon-btn-arrow"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer Comments - Testimonial -->
+      <section
+        class="bg-contain"
+        style="background: url(&quot;assets/img/bg/testimonial.jpg&quot;)"
+      >
+        <div
+          class="testimonial-section mx-auto flex h-full max-w-5xl flex-row bg-white bg-opacity-80 py-24 xl:bg-transparent"
+        >
+          <div class="testimonial-comments w-full">
+            <div class="testimonial-comments-header">
+              <div class="testimonial-comments-header-tag">Testimonial</div>
+              <div class="testimonial-comments-header-title">
+                What Our Customer Saying?
+              </div>
+            </div>
+            <div class="testimonial-comments-content mt-5 pb-16">
+              <div class="swiper comments-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide p-10">
+                    <div class="customer-comment">
+                      <div class="customer-comment-img">
+                        <img
+                          src="assets/img/product/calabrese.png"
+                          class="w-full"
+                          alt=""
+                        />
+                      </div>
+                      <div class="customer-comment-raiting">
+                        <div class="flex gap-1">
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                        </div>
+                      </div>
+                      <div class="customer-comment-content">
+                        Simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been.
+                      </div>
+                      <div class="customer-comment-info">
+                        <span class="text-2xl font-semibold">Sara Taylor</span>
+                        <span>Consumer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide p-10">
+                    <div class="customer-comment">
+                      <div class="customer-comment-img">
+                        <img
+                          src="assets/img/product/calabrese.png"
+                          class="w-full"
+                          alt=""
+                        />
+                      </div>
+                      <div class="customer-comment-raiting">
+                        <div class="flex gap-1">
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                        </div>
+                      </div>
+                      <div class="customer-comment-content">
+                        Simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been.
+                      </div>
+                      <div class="customer-comment-info">
+                        <span class="text-2xl font-semibold">Sara Taylor</span>
+                        <span>Consumer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide p-10">
+                    <div class="customer-comment">
+                      <div class="customer-comment-img">
+                        <img
+                          src="assets/img/product/calabrese.png"
+                          class="w-full"
+                          alt=""
+                        />
+                      </div>
+                      <div class="customer-comment-raiting">
+                        <div class="flex gap-1">
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                          <div class="icon icon-star active"></div>
+                        </div>
+                      </div>
+                      <div class="customer-comment-content">
+                        Simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been.
+                      </div>
+                      <div class="customer-comment-info">
+                        <span class="text-2xl font-semibold">Sara Taylor</span>
+                        <span>Consumer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="testimonial-stats border-t pt-16">
+              <div class="swiper testimonial-stats-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide flex justify-center">
+                    <div class="testimonial-stat">
+                      <div class="testimonial-stat-content">
+                        <div class="flex flex-col text-center">
+                          <span class="text-5xl font-semibold text-organick-1"
+                            >100%</span
+                          >
+                          <span class="text-xl font-medium text-organick-1"
+                            >Organic</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <div class="testimonial-stat">
+                      <div class="testimonial-stat-content">
+                        <div class="flex flex-col text-center">
+                          <span class="text-5xl font-semibold text-organick-1"
+                            >285</span
+                          >
+                          <span class="text-xl font-medium text-organick-1"
+                            >Active Product</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <div class="testimonial-stat">
+                      <div class="testimonial-stat-content">
+                        <div class="flex flex-col text-center">
+                          <span class="text-5xl font-semibold text-organick-1"
+                            >350+</span
+                          >
+                          <span class="text-xl font-medium text-organick-1"
+                            >Organic Orchads</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex justify-center">
+                    <div class="testimonial-stat">
+                      <div class="testimonial-stat-content">
+                        <div class="flex flex-col text-center">
+                          <span class="text-5xl font-semibold text-organick-1"
+                            >25+</span
+                          >
+                          <span class="text-xl font-medium text-organick-1"
+                            >Years of Farming</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Offer Products -->
+      <section class="bg-organick-1">
+        <div class="offer-product container px-5 py-10 lg:py-40">
+          <div
+            class="offer-product-top flex flex-col items-center justify-between gap-5 lg:flex-row"
+          >
+            <div class="offer-product-top-header text-center lg:text-start">
+              <div
+                class="font-yellowtail text-2xl font-medium text-organick-2 md:text-3xl"
+              >
+                Offer
+              </div>
+              <div class="text-2xl font-semibold text-white md:text-5xl">
+                We Offer Organic For You
+              </div>
+            </div>
+            <div class="view-all-btn grid place-items-center">
+              <button class="btn-yellow">
+                View All Product
+                <span class="btn-icon-wrapper">
+                  <i class="icon icon-btn-arrow"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper offer-product-slider mt-8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/calabrese.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">
+                      Calabrese Broccoli
+                    </div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$30.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/banana.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">
+                      Fresh Banana Fruites
+                    </div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Millets</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/white-nuts.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">White Nuts</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-card-category">Fresh</div>
+                  <div class="product-card-image pb-5 pt-7">
+                    <img
+                      src="assets/img/product/tomato.png"
+                      class="h-72 w-full object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="product-card-content">
+                    <div class="product-card-content-top">Red Tomato</div>
+                    <div class="product-card-content-bottom">
+                      <span>
+                        <span class="font-bold text-gray-400 line-through"
+                          >$20.00</span
+                        >
+                        <span class="text-xl font-bold text-organick-1"
+                          >$14.00</span
+                        >
+                      </span>
+                      <div class="flex gap-1">
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                        <div class="icon icon-star active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Eco Frendly -->
+      <section>
+        <div class="relative grid grid-cols-1 2xl:grid-cols-2">
+          <div class="eco-section-start">
+            <div class="eco-section-img">
+              <img
+                src="assets/img/bg/field.jpg"
+                class="relative aspect-square w-full object-cover"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="eco-section-end relative flex w-full justify-center">
+            <div
+              class="eco-section-end-content static z-10 w-full rounded-[30px] bg-white p-5 md:w-4/5 md:p-20 2xl:absolute 2xl:-left-20 2xl:top-2/4 2xl:-translate-x-0 2xl:-translate-y-1/2"
+            >
+              <div
+                class="section-header text-center font-yellowtail text-2xl font-medium text-organick-2 md:text-3xl lg:text-start"
+              >
+                Eco Friendly
+              </div>
+              <div
+                class="content-header mt-3 flex flex-col gap-2 text-center text-3xl font-semibold text-organick-1 md:text-4xl lg:flex-row lg:text-start 2xl:flex-col"
+              >
+                <span> Econis is a Friendly </span>
+                <span> Organic Store </span>
+              </div>
+
+              <div class="content-paragrafs mt-6 flex flex-col gap-8">
+                <div class="flex flex-col">
+                  <span class="text-xl font-medium text-organick-1"
+                    >Start with Our Company First</span
+                  >
+                  <p class="text-lg text-organick-p">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                    accusantium doloremque laudantium. Sed ut perspiciatis.
+                  </p>
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-medium text-organick-1"
+                    >Learn How to Grow Yourself</span
+                  >
+                  <p class="text-lg text-organick-p">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                    accusantium doloremque laudantium. Sed ut perspiciatis.
+                  </p>
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-medium text-organick-1"
+                    >Farming Strategies of Today</span
+                  >
+                  <p class="text-lg text-organick-p">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                    accusantium doloremque laudantium. Sed ut perspiciatis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section class="bg-[#F1F8F4] py-10 lg:py-40">
+        <div class="swiper gallery-slider mt-8">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <div class="gallery-card-overlay"></div>
+                <div class="gallery-card-img-wrapper">
+                  <img
+                    src="assets/img/main-slider/bg-one.jpg"
+                    class="gallery-card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="gallery-card-content">Organic Juice</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <div class="gallery-card-overlay"></div>
+                <div class="gallery-card-img-wrapper">
+                  <img
+                    src="assets/img/gallery-card/2.jpg"
+                    class="gallery-card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="gallery-card-content">Organic Food</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <div class="gallery-card-overlay"></div>
+                <div class="gallery-card-img-wrapper">
+                  <img
+                    src="assets/img/gallery-card/3.jpg"
+                    class="gallery-card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="gallery-card-content">Nuts Cookis</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News - Blog Section -->
+      <section>
+        <div class="container p-5 py-5 lg:py-40">
+          <div
+            class="news-section-top flex flex-col items-center justify-between md:flex-row"
+          >
+            <div class="news-section-title text-center md:text-start">
+              <div
+                class="font-yellowtail text-2xl font-medium text-organick-2 md:text-3xl"
+              >
+                News
+              </div>
+              <div
+                class="mt-3 flex max-w-lg flex-col text-2xl font-semibold text-organick-1 md:text-4xl"
+              >
+                Discover weekly content about organic food, & more
+              </div>
+            </div>
+            <button class="btn-white mt-5">
+              More News
+              <span class="btn-icon-wrapper">
+                <i class="icon icon-btn-arrow"></i>
+              </span>
+            </button>
+          </div>
+
+          <div class="swiper news-slider mt-8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <div class="blog-card-date">
+                    <span class="blog-card-date-content">
+                      <span>25</span>
+                      <span>Nov</span>
+                    </span>
+                  </div>
+                  <div class="blog-card-img-wrapper">
+                    <img
+                      src="assets/img/news-blog/1.jpg"
+                      class="blog-card-img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="blog-card-content">
+                    <div class="blog-card-content-user">
+                      <i class="icon icon-person"></i>
+                      <span>By Rachi Card</span>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <span
+                        class="text-2xl font-semibold text-organick-1 md:text-3xl"
+                        >The Benefits of Vitamin D & How to Get It</span
+                      >
+                      <p class="text-lg text-organick-p md:text-2xl">
+                        Simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum
+                      </p>
+                    </div>
+                    <span>
+                      <button class="btn-yellow">
+                        Read More
+                        <span class="btn-icon-wrapper">
+                          <i class="icon icon-btn-arrow"></i>
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <div class="blog-card-date">
+                    <span class="blog-card-date-content">
+                      <span>2</span>
+                      <span>Mar</span>
+                    </span>
+                  </div>
+                  <div class="blog-card-img-wrapper">
+                    <img
+                      src="assets/img/news-blog/2.jpg"
+                      class="blog-card-img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="blog-card-content">
+                    <div class="blog-card-content-user">
+                      <i class="icon icon-person"></i>
+                      <span>By Rachi Card</span>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                      <span
+                        class="text-2xl font-semibold text-organick-1 md:text-3xl"
+                        >Our Favourite Summertime Tommeto</span
+                      >
+                      <p class="text-lg text-organick-p md:text-xl">
+                        Simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum
+                      </p>
+                    </div>
+                    <span>
+                      <button class="btn-yellow">
+                        Read More
+                        <span class="btn-icon-wrapper">
+                          <i class="icon icon-btn-arrow"></i>
+                        </span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter section -->
+      <section>
+        <div
+          class="container mt-20 h-80 rounded-3xl bg-[url('assets/img/bg/newsletter.jpg')] p-6 lg:p-12"
+          style="
+            background: url(&quot;assets/img/bg/newsletter.jpg&quot;);
+            background-position: center;
+          "
+        >
+          <div
+            class="grid h-full grid-cols-1 text-center md:grid-cols-2 md:text-start"
+          >
+            <div
+              class="flex max-w-lg flex-col justify-center text-2xl font-semibold text-white md:text-4xl"
+            >
+              Subscribe to our Newsletter
+            </div>
+            <form
+              class="flex flex-shrink-0 flex-col items-center justify-end gap-2 text-white md:flex-row"
+            >
+              <div class="flex items-center">
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  class="max-w-96 rounded-2xl p-6"
+                  placeholder="Your Email Address"
+                />
+              </div>
+              <button
+                class="rounded-2xl bg-[#274C5B] px-16 py-6 font-bold text-white"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container py-5 text-lg lg:py-28">
+        <div class="grid grid-cols-1 gap-10 lg:grid-cols-3">
+          <div class="footer-start">
+            <div class="footer-title">Contact Us</div>
+            <div class="footer-start-item">
+              <span class="font-bold">Email</span>
+              <a href="mailto:needhelp@Organia.com">needhelp@Organia.com</a>
+            </div>
+            <div class="footer-start-item">
+              <span class="font-bold">Phone</span>
+              <a href="tel:888 888 888 888">+90 5463413 654134</a>
+            </div>
+            <div class="footer-start-item">
+              <span class="font-bold">Adress</span>
+              <span>88 road, borklyn street</span>
+            </div>
+          </div>
+          <div class="footer-center">
+            <span class="company-logo">
+              <img src="assets/img/logo.svg" alt="Organick" />
+              <span>Organick</span>
+            </span>
+            <p class="mt-8 text-organick-p">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum simply dummy text of the printing
+            </p>
+            <div class="footer-center-social">
+              <span class="footer-center-social-icon-wrapper">
+                <i class="icon icon-instagram"></i>
+              </span>
+              <span class="footer-center-social-icon-wrapper">
+                <i class="icon icon-facebook"></i>
+              </span>
+              <span class="footer-center-social-icon-wrapper">
+                <i class="icon icon-twitter"></i>
+              </span>
+              <span class="footer-center-social-icon-wrapper">
+                <i class="icon icon-pinterest"></i>
+              </span>
+            </div>
+          </div>
+          <div class="footer-end">
+            <div class="footer-title">Utility Pages</div>
+            <a href="#?">Style Guide</a>
+            <a href="#?">404 Not Found</a>
+            <a href="#?">Password Protected</a>
+            <a href="#?">Licences</a>
+            <a href="#?">Changelog</a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom ">
-      <span>
-        Copyright &copy;
-        <span class="font-semibold">Organick</span> | Designed by
-        <span class="font-semibold">VictorFlow</span> Templates - Powered by
-        <span class="font-semibold">Webflow</span></span>
-    </div>
+      <div class="footer-bottom">
+        <span>
+          Copyright &copy;
+          <span class="font-semibold">Organick</span> | Designed by
+          <span class="font-semibold">VictorFlow</span> Templates - Powered by
+          <span class="font-semibold">Webflow</span></span
+        >
+      </div>
+    </footer>
 
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="assets/js/main.js?v=1.0.1"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js?v=1.0.1"></script>
+  </body>
 </html>
