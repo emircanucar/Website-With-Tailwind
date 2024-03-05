@@ -23,7 +23,7 @@
 
   /* Header */
   .header {
-    @apply py-7 w-full bg-white flex items-center sticky top-0 z-20 border-b;
+    @apply py-3 md:py-7 w-full bg-white flex items-center sticky top-0 z-20 border-b;
   }
 
   /* Navbar */
@@ -36,11 +36,14 @@
   .navbar.responsive .navbar-menu {
     @apply flex flex-col;
   }
+  .navbar.responsive .menu-btn {
+    @apply top-7;
+  }
   .company-logo {
     @apply flex items-center gap-2 text-3xl xl:text-4xl font-bold text-organick-1 w-full lg:w-fit justify-center;
   }
   .navbar-menu {
-    @apply hidden lg:flex lg:items-center justify-center gap-3 lg:gap-0;
+    @apply hidden lg:flex lg:items-center justify-center gap-1 lg:gap-0;
   }
   .navbar-menu-item {
     @apply font-bold bg-neutral-100 lg:bg-transparent text-organick-1 hover:bg-gray-100 hover:text-organick-1 px-5 lg:px-2 xl:px-4 py-3 lg:py-3 rounded-lg;
@@ -55,7 +58,7 @@
     @apply border rounded-full flex flex-shrink-0 items-center gap-2 p-1 pr-2 max-w-fit;
   }
   .menu-btn {
-    @apply absolute left-1 top-5;
+    @apply absolute right-1 top-2/4 -translate-y-2/4;
   }
 
   /* Main Slider */
@@ -87,10 +90,10 @@
 
   /* Customer Comments - Testimonial */
   .testimonial-comments-header-tag {
-    @apply text-organick-2 font-medium font-yellowtail text-3xl text-center;
+    @apply text-organick-2 font-medium font-yellowtail text-2xl md:text-3xl text-center;
   }
   .testimonial-comments-header-title {
-    @apply text-organick-1 font-semibold text-4xl text-center mt-5;
+    @apply text-organick-1 font-semibold text-3xl  md:text-4xl text-center mt-5;
   }
 
   .customer-comment {
@@ -128,7 +131,7 @@
     @apply w-full absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-2/4;
   }
   .gallery-card-content {
-    @apply z-10 bg-white rounded-3xl px-20 py-8 text-2xl text-organick-1 font-medium;
+    @apply z-10 bg-white rounded-3xl px-7 sm:px-20 py-4 sm:py-8 text-2xl text-organick-1 font-medium;
   }
 
   /*  News Section */
@@ -173,7 +176,7 @@
     @apply flex items-center justify-center gap-4 mt-12;
   }
   .footer-center-social-icon-wrapper {
-    @apply rounded-full w-[60px] h-[60px] bg-[#EFF6F1] grid place-items-center;
+    @apply rounded-full w-10 md:w-[60px] h-10 md:h-[60px] bg-[#EFF6F1] grid place-items-center;
   }
 
   .footer-end {

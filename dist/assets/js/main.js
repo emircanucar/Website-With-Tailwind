@@ -90,6 +90,8 @@ var swiper = new Swiper(".testimonial-stats-slider", {
 
 var swiper = new Swiper(".offer-product-slider", {
     slidesPerView: 1,
+    spaceBetween: 20,
+
     breakpoints: {
         768: {
             slidesPerView: 2,

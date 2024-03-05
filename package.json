@@ -3,6 +3,6 @@
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
-    "watch":"tailwindcss -i ./src/input.css -o ./dist/assets/css/style.min.css --minify --watch"
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/assets/css/style.min.css --minify --watch"
   }
 }
